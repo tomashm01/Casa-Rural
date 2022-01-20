@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.ocultar{
+    display: none;
+}
+
+.mostrar{
+    display: block;
+}
+
+body{
+    background-image: url(../img/fondoPrincipal.jpeg);
+    font-family: 'Bebas Neue', cursive;
+}
+
+#head{
+    margin-top:2%;
+    background-color: #f2f2f27e;
+    width: 100%;
+    z-index: 1;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 50px;
+    color: #fff;
+    text-align: center;
+    border: 5px solid black;
+}
+
+h1:hover{
+    color: rgb(204, 30, 30);
+}
+
+a{
+    width: 10%;
+    text-decoration: none;
+    color: #fff;    
+}
+.hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+.btn-grad {background-image: linear-gradient(to right, #ADD100 0%, #7B920A  51%, #ADD100  100%)}
+.btn-grad {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   display: block;
+   color:black;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
