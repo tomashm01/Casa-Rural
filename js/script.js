@@ -7,12 +7,13 @@
             parrafos[i].classList.add('ocultar');
         }
         let contador=0;
-
-        setInterval(comportamientoFrases,1000);
+        setInterval(comportamientoFrases,3000);
 
         function comportamientoFrases(){
             parrafos[contador].classList.remove('ocultar');
             parrafos[contador].classList.add('mostrar');
+            parrafos[contador].classList.add('aumentar');
+
             for(let i=0;i<parrafos.length;i++){
                 if(i!=contador){
                     parrafos[i].classList.remove('mostrar');

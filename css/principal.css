@@ -8,6 +8,24 @@
     display: block;
 }
 
+.aumentar{
+    animation-name: aumentar;
+    animation-duration: 3s;
+}
+
+@keyframes aumentar{
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0.5;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
 body{
     background-image: url(../img/fondoPrincipal.jpeg);
     font-family: 'Bebas Neue', cursive;
@@ -26,13 +44,17 @@ body{
 
 h1{
     font-size: 50px;
+    padding:2%;
     color: #fff;
     text-align: center;
     border: 5px solid black;
+    background-image: linear-gradient(to left bottom, #cdcd26, #bad510, #a2dc00, #83e400, #54eb12);
+    border-radius: 10px;
 }
 
 h1:hover{
-    color: rgb(204, 30, 30);
+    color: #fff;
+    text-shadow: 0 0 10px #fff;
 }
 
 a{
@@ -40,6 +62,15 @@ a{
     text-decoration: none;
     color: #fff;    
 }
+
+#texto{
+    margin-top: 15%;
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Bebas Neue', cursive;
+}
+
 .hvr-glow {
     display: inline-block;
     vertical-align: middle;
