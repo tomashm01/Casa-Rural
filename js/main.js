@@ -7,7 +7,7 @@
         setInterval(function(){
             const rand=Math.floor(Math.random()*4)+1;
             body.style.backgroundImage="url('./img/fondo"+rand+".jpg')";
-        },1000);
+        },5000);
 
     });
 }

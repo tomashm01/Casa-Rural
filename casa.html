@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa rural</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/main.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
+      rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=outline -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=round -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Round"
+          rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=sharp -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Sharp"
+          rel="stylesheet">
+    <!-- https://material.io/resources/icons/?style=twotone -->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons+Two+Tone"
+          rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div class="container">
+        <header class="hvr-glow">
+            <h1>laNaturalezaATuMano.com</h1>
+        </header>
+    
+        <nav>
+            <ul>
+                <li><a href="index.html"><button class="cta">
+                    <span class="hover-underline-animation"> Inicio </span>
+                    <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+                      <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" transform="translate(30)"></path>
+                    </svg>
+                  </button></a></li>
+                <li><a href="main.html"><button class="cta">
+                    <span class="hover-underline-animation"> Reservar </span>
+                    <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+                      <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" transform="translate(30)"></path>
+                    </svg>
+                  </button></a></li>
+                <li><a href="#"><button class="cta">
+                    <span class="hover-underline-animation"> Contacto </span>
+                    <svg id="arrow-horizontal" xmlns="http://www.w3.org/2000/svg" width="30" height="10" viewBox="0 0 46 16">
+                      <path id="Path_10" data-name="Path 10" d="M8,0,6.545,1.455l5.506,5.506H-30V9.039H12.052L6.545,14.545,8,16l8-8Z" transform="translate(30)"></path>
+                    </svg>
+                  </button></a></li>
+            </ul>
+        </nav>
+    
+        <div class="contenido">
+            <aside>
+                <!-- Formulario para buscar por provincia y fecha -->
+                <form class="fechas" action="">
+                    <label for="provincia">Nombre</label>
+                    <input type="text" placeholder="Nombre">
+                    <label for="Apellidos">Apellidos</label>
+                    <input type="text" placeholder="Apellidos">
+                    <label for="Número de personas">Número de personas</label>
+                    <input type="number" placeholder="Número personas">
+                    <label for="correo">Correo electrónico</label>
+                    <input type="text" placeholder="Correo electrónico">
+                    <label for="Teléfono">Teléfono</label>
+                    <input type="tel" placeholder="Teléfono">
+                    <label for="fechaInicio">Fecha de inicio</label>
+                    <input type="date">
+                    <label for="fechaFin">Fecha de fin</label>
+                    <input type="date">
+                    <input class="btn-grad-green" type="submit" value="Reservar">
+                </form>
+            </aside>
+        
+            <main>
+                <article class="habitacion hvr-glow">
+                    <h2>Nombre: Casa Pepe</h2>
+                    <div class="imagenes">
+                      <img src="img/rural.jpg" alt="Imagen">
+                      <img src="img/rural.jpg" alt="Imagen">
+                      <img src="img/rural.jpg" alt="Imagen">
+                      <img src="img/rural.jpg" alt="Imagen">
+                      <img src="img/rural.jpg" alt="Imagen">
+                      <img src="img/rural.jpg" alt="Imagen">
+                    </div>
+                    <div>
+                      <div>
+                        <span class="material-icons-outlined">home</span>
+                        <span>4-6 personas</span>
+                      </div>
+                      <div>
+                        <span class="material-icons-outlined">bed</span>
+                        <span>2 habitaciones</span>
+                      </div>
+                      <div>
+                        <span class="material-icons-outlined">attach_money</span>
+                        <span>43$/noche</span>
+                      </div>
+                      <div>
+                        <span>Valoración media: 4.3</span>
+                        <span class="material-icons-outlined">star</span>
+                        <span class="material-icons-outlined">star</span>
+                        <span class="material-icons-outlined">star</span>
+                        <span class="material-icons-outlined">star</span>
+                        <span class="material-icons-outlined" style="color: white;">star</span>
+                      </div>
+                    </div>
+                </article>
+            </main>
+        </div>
+    
+    </div>
+</body>
+</html>
