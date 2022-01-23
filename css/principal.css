@@ -17,8 +17,32 @@
     0%{
         opacity: 0;
     }
+    10%{
+        opacity: 0.1;
+    }
+    20%{
+        opacity: 0.2;
+    }
+    30%{
+        opacity: 0.3;
+    }
+    40%{
+        opacity: 0.4;
+    }
     50%{
         opacity: 0.5;
+    }
+    60%{
+        opacity: 0.6;
+    }
+    70%{
+        opacity: 0.70;
+    }
+    80%{
+        opacity:0.8;
+    }
+    90%{
+        opacity: 0.9;
     }
     100%{
         opacity: 1;
@@ -43,11 +67,11 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 30px;
     padding:2%;
     color: #fff;
     text-align: center;
-    border: 5px solid black;
+    border: 2px solid black;
     background-image: linear-gradient(to left bottom, #cdcd26, #bad510, #a2dc00, #83e400, #54eb12);
     border-radius: 10px;
 }

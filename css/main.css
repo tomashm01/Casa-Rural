@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    background-image: url(../img/fondo1.jpg);
+    font-family: 'Bebas Neue', cursive;
+    background-attachment: fixed;
+}
+
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+header{
+    background-color: #f2f2f27e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    z-index: 1;
+    margin-top: 1%;
+}
+
+nav{
+    width: 100%;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+    
+}
+
+nav ul li{
+    list-style: none;
+    padding: 1%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 2%;
+    cursor: pointer;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li:hover{
+    background-color: #f2f2f27e;
+}
+
+nav form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 2%;
+}
+
+#campoBuscar{
+    width: 50%;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+#botonBuscar{
+    width: 10%;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 0px 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.hvr-glow {
+    display: flex;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
+
+  .btn-grad-green {background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%)}
+  .btn-grad-green {
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     box-shadow: 0 0 20px #eee;
+     border-radius: 10px;
+     display: block;
+   }
+
+   .btn-grad-green:hover {
+     background-position: right center; /* change the direction of the change here */
+     color: black;
+     text-decoration: none;
+   }
+  
+   /* From cssbuttons.io by @alexmaracinaru */
+.cta {
+    border: none;
+    background: none;
+    cursor: pointer;
+   }
+   
+   .cta span {
+    padding-bottom: 7px;
+    letter-spacing: 4px;
+    font-size: 15px;
+    padding-right: 15px;
+    text-transform: uppercase;
+   }
+   
+   .cta svg {
+    transform: translateX(-8px);
+    transition: all 0.3s ease;
+   }
+   
+   .cta:hover svg {
+    transform: translateX(0);
+   }
+   
+   .cta:active svg {
+    transform: scale(0.9);
+   }
+   
+   .hover-underline-animation {
+    position: relative;
+    color: black;
+    padding-bottom: 20px;
+   }
+   
+   .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #000000;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+   }
+   
+   .cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+   }
+
+
+.contenido{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+aside{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 2%;
+    top:0;
+}
+
+aside label{
+    font-size: 20px;
+    color: #9FF781;
+    text-align: center;
+}
+
+aside input{
+    width: 90%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 0px 1%;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+main{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+main img{
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 2%;
+}
+
+section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+main article{
+    width: 45%;
+    margin: 2%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2f2f27e;
+}
+
+main article a{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 150px;
+}
+
+main article a img{
+    width: 40%;
+}
+
+.valoracion{
+    list-style-type: none;
+}
+.valoracion:hover{
+    color:white;
+}
+
+@media (max-width: 768px) {
+    .contenido{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    main section{
+        margin-top:0 auto;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    main section article{
+        width: 100%;
+    }
+}
