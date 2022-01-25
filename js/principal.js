@@ -7,7 +7,7 @@
             parrafos[i].classList.add('ocultar');
         }
         let contador=0;
-        setInterval(comportamientoFrases,3000);
+        setInterval(comportamientoFrases,5000);
 
         function comportamientoFrases(){
             parrafos[contador].classList.remove('ocultar');

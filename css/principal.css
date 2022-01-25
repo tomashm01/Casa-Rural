@@ -10,7 +10,7 @@
 
 .aumentar{
     animation-name: aumentar;
-    animation-duration: 3s;
+    animation-duration: 5s;
 }
 
 @keyframes aumentar{
@@ -66,20 +66,7 @@ body{
     justify-content: center;
 }
 
-h1{
-    font-size: 30px;
-    padding:2%;
-    color: #fff;
-    text-align: center;
-    border: 2px solid black;
-    background-image: linear-gradient(to left bottom, #cdcd26, #bad510, #a2dc00, #83e400, #54eb12);
-    border-radius: 10px;
-}
 
-h1:hover{
-    color: #fff;
-    text-shadow: 0 0 10px #fff;
-}
 
 a{
     width: 10%;
@@ -129,3 +116,50 @@ a{
    color: #fff;
    text-decoration: none;
  }
+
+ /* From cssbuttons.io by @nikk7007 */
+button {
+    padding: 0.8em 1.8em;
+    border: 2px solid #283b1a;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #283b1a;
+    cursor: pointer;
+    margin-bottom:15%;
+   }
+   
+   button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #aeb8a7;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   
+   button:hover::before {
+    width: 105%;
+   }
+   
+   button:hover {
+    color: #111;
+   }
+   
+@media screen and (max-width: 700px) {
+    #texto{
+        margin-top:40%;
+    }
+    
+}

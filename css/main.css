@@ -266,9 +266,9 @@ main{
 }
 
 main img{
-    width: 200px;
+    width: 250px;
+    height:120px;
     border-radius: 5px;
-    margin-left: 2%;
 }
 
 section{
@@ -311,7 +311,10 @@ main article a img{
     color:white;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
+    main{
+        width: 100%;
+    }
     .contenido{
         flex-direction: column;
         justify-content: center;
