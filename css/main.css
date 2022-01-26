@@ -272,7 +272,7 @@ main img{
 }
 
 section{
-    width: 100%;
+    width: 80%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -301,7 +301,7 @@ main article a{
 }
 
 main article a img{
-    width: 40%;
+    width: 50%;
 }
 
 .valoracion{
@@ -387,17 +387,29 @@ main .habitacion{
     align-items: center;
 }
 
-.habitacion .imagenes{
+.imagenes{
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    max-width: 500px;
     width: 100%;
+}
+
+.imagenes img{
+    scroll-snap-align: center;
+    flex: 0 0 100%;
+    width: 100%;
+    margin-left:2%;
+    height: 300px;
+}
+
+.habitacion .imagenes{
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+    
 }
 
 .habitacion div div{
-    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
