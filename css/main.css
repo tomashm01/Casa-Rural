@@ -73,7 +73,6 @@ nav ul{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2%;
 }
 
 nav ul li{
@@ -336,6 +335,14 @@ main article a img{
         width: 100%;
         margin-top: 0;
     }
+    iframe{
+        width: 250px;
+        height:100px;
+        border-radius: 5px;
+    }
+    .imagenes{
+        height:200px;
+    }
 }
 
 .filtrar{
@@ -409,9 +416,23 @@ main .habitacion{
     
 }
 
+.habitacion .espacios{
+    margin-bottom: 3%;
+}
+
 .habitacion div div{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
+}
+
+.habitacion div div span{
+    font-size: 25px;
+}
+
+iframe{
+    width: 300px;
+    height:150px;
+    border-radius: 5px;
 }
