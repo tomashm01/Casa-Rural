@@ -18,39 +18,39 @@
         opacity: 0;
     }
     10%{
-        opacity: 0.1;
-    }
-    20%{
-        opacity: 0.2;
-    }
-    30%{
         opacity: 0.3;
     }
-    40%{
-        opacity: 0.4;
-    }
-    50%{
-        opacity: 0.5;
-    }
-    60%{
+    20%{
         opacity: 0.6;
     }
-    70%{
-        opacity: 0.70;
-    }
-    80%{
-        opacity:0.8;
-    }
-    90%{
+    30%{
         opacity: 0.9;
     }
-    100%{
+    40%{
         opacity: 1;
+    }
+    50%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    70%{
+        opacity: 0.9;
+    }
+    80%{
+        opacity:0.6;
+    }
+    90%{
+        opacity: 0.3;
+    }
+    100%{
+        opacity: 0;
     }
 }
 
 
-body{
+.principal{
     background-image: url(../img/fondoPrincipal.jpeg);
     font-family: 'Bebas Neue', cursive;
 }
@@ -66,10 +66,11 @@ body{
     justify-content: center;
 }
 
-
+h1{
+    text-align: center;
+}
 
 a{
-    width: 10%;
     text-decoration: none;
     color: #fff;    
 }
